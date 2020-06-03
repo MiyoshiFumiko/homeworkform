@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>お届け先入力フォーム</h1>
+    
+    <!-- action: 送信先のURL -->
+    <!-- method: 送信方法(GET or POST) -->
+    <form action="check.php" method="POST">
+      <div>
+        <label for="">名前</label>
+        <br>
+        <input type="text" name="username">
+      </div>
+      <div>
+        <label for="">メールアドレス</label>
+        <br>
+        <input type="text" name="email">
+      </div>
+      <div>
+        <label for="">電話番号</label>
+        <br>
+        <input type="text" name="phone">
+      </div>
+      <div>
+        <label for="">住所</label>
+        <br>
+        <input type="text" name="address">
+      </div>
+      
+      <input type="submit" value="送信">
+    </form>
+
+</body>
+</html>
